@@ -16,5 +16,3 @@ Full details can be found in the following articles:
 The source should be a plain ascii file containing the model's parameters and input values.
 
 The target consists in a binary object: a 'tsm' or TimeScapeModel, that can be manipulated through a set of dedicated methods.
-
-The Timescape distribution comes with a set of four sample datasets
