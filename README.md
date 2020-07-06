@@ -22,4 +22,5 @@ The Timescape distribution comes with a set of four sample datasets:
 - d15N: Fungi 15N vs 14N isotopic abundance, from CNR-IRET - http://www.iret.cnr.it
 - d18O: Olive oil 18O vs 16O isotopic abundance, from CNR-IRET - http://www.iret.cnr.it - https://doi.org/10.1016/j.foodchem.2016.01.146
 - tmin: Umbria (central Italy) minumum temperatures by month, 1980 to 1999, https://servizioidrografico.regione.umbria.it
+
 each sample dataset consists in a descriptive pdf file (example.pdf), the ascii source input file (example_source.txt) and an R object containing the source and the target as SpatialPointsDataFrame object, and the spatial reference object (example.RData).
