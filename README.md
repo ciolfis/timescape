@@ -13,20 +13,7 @@ Full details can be found in the following articles:
 - Ciolfi M, Chiocchini F, Mattioni M, Lauteri M: TimescapeLocal spacetime interpolation tool - projected coordinates Java standalone application, Smart eLab vol.10 (2017), ISSN 2282-2259, doi:0.30441/smart-elab.v10i0.201.
 (these are referred to the Java implementation of the Timescape algoritm)
 
-The source should be an ascii file formatted as follows:
-  #any comment in the header section follows a # sign
-  #model parameters - these are the model parameters
-  ALGORITHM=KRIG, METRIC=EUCLID
-  C=1.5, K=1.0, NEIGH=0
-  #bulk bounds - these are the target bounds and number of cells in time, x and y coordinates
-  NT=64, MINT=0.0, MAXT=80.0
-  NX=128, MINX=0, MAXX=144.01
-  NY=128, MINY=0.0, MAXY=122.59
-  #source events
-  ID,T,X,Y,VAL #this header string is mandatory, the format is LABEL, time, x-coord, y-coord, value
-  SAMPLE_LABEL,11.11,22.22,33.33,99.99
-    ...
-    ...
+The source should be a plain ascii file containing the model's parameters and input values.
 
 The target consists in a binary object: a 'tsm' or TimeScapeModel, that can be manipulated through a set of dedicated methods.
 
