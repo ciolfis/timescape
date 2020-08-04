@@ -6,7 +6,7 @@ It takes as input (the source) a number of records and outputs a 3D voxel lattic
 Author: Marco Ciolfi - marco.ciolfi@cnr.it - https://www.cnr.it/people/marco.ciolfi
 The current version is released as a Python3 module
 
-The Timescape algorithm, in a nutshell, treats the time as a third spatial dimension, with the addition of a causal constraint.
+The Timescape algorithm treats the time as a third spatial dimension, with the addition of a causal constraint.
 
 The source should be a plain ascii file containing the model's parameters and input values.
 
